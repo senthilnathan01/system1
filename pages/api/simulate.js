@@ -25,7 +25,7 @@ Reasoning: [why they’d do it]
 
   try {
     const completion = await openai.chat.completions.create({
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4o',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 150,
       temperature: 0.7,
