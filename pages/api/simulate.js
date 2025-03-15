@@ -12,7 +12,7 @@ export default async function handler(req, res) {
   const { url, profile, goal } = req.body;
 
   const prompt = `
-You are simulating System 1 thinking for a user interacting with a webpage. System 1 thinking is fast, intuitive, and automatic, based on instincts and past experiences rather than slow, deliberate analysis.
+You are simulating System 1 thinking for a user interacting with a webpage. System 1 thinking is fast, intuitive, and automatic, based on instincts rather than slow, deliberate analysis.
 
 Website URL (for context, no automation): ${url}
 User Profile: ${profile}
